@@ -222,7 +222,7 @@ header nav a {
     
 }
 .containersBox a, .containersBox2 a {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: .3rem 1rem .3rem 1rem;
     border-radius: .5rem;
     text-decoration: none;
@@ -238,6 +238,7 @@ header nav a {
 
 #midContainer {
     border-top: 1px dashed black;
+    padding-top: 2rem;
 }
 
 #togetherBox {
@@ -248,5 +249,25 @@ header nav a {
 
 #aboutBox {
     margin-bottom: 2rem;
+}
+
+.footer {
+    width: 57%;
+    background: black;
+    margin-left: 22%;
+}
+
+.footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.footer nav a {
+    color: white;
+    text-decoration: none;
 }
 
