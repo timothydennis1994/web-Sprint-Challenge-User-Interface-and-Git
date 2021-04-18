@@ -148,7 +148,7 @@ footer nav a {
 header {
     display: flex;
     margin-left: 23%;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 header nav {
@@ -161,7 +161,7 @@ header nav a {
     margin: 3.1rem 3.1rem 3.1rem 2.5rem;
 }
 
-#headerPic {
+.headerPic {
     margin: 2rem 0 2rem 23%;
     width: 52rem;
 }
@@ -205,3 +205,48 @@ header nav a {
     background-color: dodgerblue;
 
 }
+
+#midContainer {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.containersBox {
+    
+    width: 35%;
+    margin: 1rem .5rem 2rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed black;
+    line-height: 3rem;
+    
+}
+.containersBox a, .containersBox2 a {
+    border: 1px solid black;
+    padding: .3rem 1rem .3rem 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: black;
+}
+.containersBox2 {
+    width: 35%;
+    margin: 1rem .5rem 2rem 8rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed black;
+    line-height: 3rem;
+}
+
+#midContainer {
+    border-top: 1px dashed black;
+}
+
+#togetherBox {
+    width: 52%;
+    margin-left: 23.5%;
+    margin-bottom: 2rem;
+}
+
+#aboutBox {
+    margin-bottom: 2rem;
+}
+
