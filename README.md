@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+-In short order, semantic HTML is the term that refers to your Elements that have meaningful tags. What you read is what the tag does.
+
+-Semantic HTML is the preferred script to use when creating HTML. It is when your elements have tags that do what their name implies, Footer and Headers are prime examples, the foot or head the page. Semantic HTML is prefferable as they allow persons with screen readers to easily access your page with screen reader systems. Also search engines prefer semantic html and that will help the placement of your site on search engine result pages. 
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+-Block display is a display that uses the full width, wether the content needs that much space or not.
+-Block level displays will always have a new line after their closing elements tags.
+
+-Inline display takes up only the amount of space that its content requires, nothing more unless changed.
+-Inline displays do not have new lines after ther closing, instead another element(non block) will show up side by side.
 
 3. What are the 4 areas of the box model?
 
+-Content, Padding, Border and Margin are the 4 areas of the Box Model from Inside Out (relatively speaking)
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+-Align Items is the positions of the elements(items) along the cross axis (comparable to the Y-axis in geometry). Centering this flex display would take the itemsand center them in reference to the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+-Git is valuable to developers because it allows a team to work on seperate (or even the same) portions of a singular project at the same time, no matter the distance. The developers can make changes to a local repository that will not effect the main branch, unless intended to and with admin  access to the main branches file, allowing multiple sections, or multiple solutions to the same section to be conceived and worked upon. The local repos can also be saved all to one file that can be accessed in a timeline fashion. Its 1 file that has multiple saves that are all linked based on when they were made, not multiple files. Developers can easily access one of their prior versions without effecting the rest.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -102,3 +119,5 @@ After finishing your required elements, you can push your work further. These go
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+git test line
